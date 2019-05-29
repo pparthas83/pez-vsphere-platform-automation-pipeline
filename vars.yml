@@ -1,0 +1,14 @@
+s3:
+  access_key_id: # S3 Access Key Id
+  secret_access_key: #S3 Secret Access Key
+  region_name: # Region where S3 was created
+  buckets:
+    pivnet_products: # Name of the bucket where Tiles, Stemcells etc are stored
+
+pivnet_token: #Pivnet token of the user from where Pivnet resources are downloaded
+
+configuration_private:
+  username: #Github username
+  password: #Github password
+  uri: #Github uri where configs and pipeline are source controlled 
+  key: #Private Key of the Github repo
